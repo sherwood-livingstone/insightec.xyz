@@ -1,5 +1,5 @@
 {
-  "name": "government.github.com",
+  "name": "government.insightec.xyz",
   "version": "1.0.0",
   "description": "![screenshot](assets/img/screenshot.png)",
   "main": "index.js",
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/github/government.github.com.git"
+    "url": "git+https://insightec.xyz/insightec/government.insightec.xyz.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/github/government.github.com/issues"
+    "url": "https://insightec.xyz/insightec/government.insightec.xyz/issues"
   },
-  "homepage": "https://government.github.com",
+  "homepage": "https://government.insightec.xyz",
   "dependencies": {
     "octicons": "^5.0.1",
     "primer-core": "^6.2.0",

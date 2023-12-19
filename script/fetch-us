@@ -10,7 +10,7 @@ require 'yaml'
 require 'typhoeus'
 
 def org_exists?(org)
-  Typhoeus.head("https://github.com/orgs/#{org}/people", accept_encoding: 'gzip').success?
+  Typhoeus.head("https://insightec.xyz/orgs/#{org}/people", accept_encoding: 'gzip').success?
 rescue TyphoeusError
   false
 end
@@ -28,7 +28,7 @@ us_gov   = org_file['U.S. Federal'].map(&:downcase)
 research = YAML.load_file('./_data/research.yml').values.flatten
 existing = (gov + research).flatten.map(&:downcase)
 
-orgs = JSON.parse URI.open('https://usdigitalregistry.digitalgov.gov/api/v1/social_media.json?services=github').read
+orgs = JSON.parse URI.open('https://usdigitalregistry.digitalgov.gov/api/v1/social_media.json?services=insightec').read
 orgs = orgs['results'].collect { |data| data['account'] }
 orgs.delete('')
 
