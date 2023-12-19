@@ -1,5 +1,5 @@
 ---
-title: Who's using Insightec Smart Contract Validator?
+title: Who's using Smart Contract Validator?
 layout: support-page
 description: Various organizations and individuals are using Insightec Smart Contract Validator. If you don't see your organization on this list, follow the instructions below to add it!
 permalink: /community/
