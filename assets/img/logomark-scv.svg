@@ -2,14 +2,13 @@
 <svg
    id="Layer_1"
    data-name="Layer 1"
-   viewBox="0 0 811332.57 5439.0625"
+   viewBox="0 0 900.74 73.75"
    version="1.1"
    sodipodi:docname="logomark-scv.svg"
-   inkscape:export-filename="logomark-scv.svg"
+   inkscape:export-filename="logomark-scv2.svg"
    inkscape:export-xdpi="300"
    inkscape:export-ydpi="300"
-   width="811332.56"
-   height="5439.0625"
+   inkscape:version="1.2.2 (b0a84865, 2022-12-01)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -23,7 +22,16 @@
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
-     showgrid="false" />
+     showgrid="false"
+     inkscape:zoom="0.55147273"
+     inkscape:cx="280.15891"
+     inkscape:cy="152.31941"
+     inkscape:window-width="1512"
+     inkscape:window-height="916"
+     inkscape:window-x="0"
+     inkscape:window-y="38"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Layer_1" />
   <defs
      id="defs134">
     <style
@@ -40,11 +48,11 @@
      transform="translate(67.093072,21.759915)"><tspan
        x="13.410521"
        y="31.291216"
-       id="tspan806"><tspan
+       id="tspan824"><tspan
    style="font-style:italic;font-weight:bold;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold Italic'"
-   id="tspan800">S</tspan>mart<tspan
+   id="tspan818">S</tspan>mart<tspan
    style="font-style:italic;font-weight:bold;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold Italic'"
-   id="tspan802"> C</tspan>ontract<tspan
+   id="tspan820"> C</tspan>ontract<tspan
    style="font-style:italic;font-weight:bold;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold Italic'"
-   id="tspan804"> V</tspan>alidator</tspan></text>
+   id="tspan822"> V</tspan>alidator</tspan></text>
 </svg>
