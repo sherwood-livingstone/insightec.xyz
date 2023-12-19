@@ -1,4 +1,4 @@
 ---
-redirect_to: https://government.insightec.io/best-practices/
+redirect_to: https://government.github.io/best-practices/
 permalink: /best-practices/index.html
 ---

@@ -2,7 +2,7 @@
 title: Accessibility
 layout: support-page
 permalink: /accessibility/
-description: "Voluntary Product Accessibility Template (VPAT) outlining §508 accessibility information for insightec.xyz, GitHub Enterprise, and GitHub Desktop."
+description: "Voluntary Product Accessibility Template (VPAT) outlining §508 accessibility information for GitHub.com, GitHub Enterprise, and GitHub Desktop."
 redirect_from: "/508/"
 data:
   Summary:
@@ -34,7 +34,7 @@ data:
         comments:
 
   "Section 1194.21 Software Applications and Operating Systems":
-    product: insightec.xyz, GitHub Enterprise, GitHub Desktop
+    product: GitHub.com, GitHub Enterprise, GitHub Desktop
     criteria:
       - criterion: "(a) When software is designed to run on a system that has a keyboard, product functions shall be executable from a keyboard where the function itself or the result of performing a function can be discerned textually."
         support: Supports with exceptions
@@ -50,7 +50,7 @@ data:
         comments: For web and GitHub client experiences, when making an edit to the markdown of the GitHub ReadMe file, the field is not announced as editable and “no new line at end of file” icon is not announced by screen reader.<br /><br />Across a number of areas in the GitHub Marketplace and Desktop for Windows and Mac experiences, selected elements are not announced as selected and decorative elements are not skipped by screen readers.<br /><br />Throughout GitHub sites and Desktop client experiences, links are only described as links without additional context.  For example, in GitHub repositories, new links are described only as new link without additional context.  Social media links (e.g., GitHub Twitter link) are only described as “link.”<br /><br />Assignees button, and type or choose name control do not have the correct accessible control name.<br /><br />No additional announcements are made after making a pull request although there are visual displays of errors and other information.<br /><br />On web experiences and Desktop for Windows, when reviewing search results data, checkboxes for labels and select all issues checkboxes do not have accessible names.<br /><br />On GitHub Help page, search button does not have the control type described.<br /><br />On GitHub Repo Settings Collaborators, the dismiss message button is announced before message is read and “Delete this repository” dialog sets focus to input field and ignores accompanying text.<br /><br />When not signed in, button names are not read (such as Watch or Fork) and instead, you must be signed in is read when landing on the control.<br /><br />On Desktop for Windows, default branch, recent branch and other branch headings are not announced by screen readers.<br /><br />On Desktop for Mac, when using delete branch button, the button  state change to “restore branch” is not announced.<br /><br />On Desktop for Windows, Continue dialog and Finish button do not trigger focus change to new dialogs when activated.<br /><br />On Desktop for Windows, Co-Author edit box does not have an accessible name.<br /><br />On Desktop for Windows and Mac, when when using “Fetch Origin” button and “Publish” button additional information when button state changes (e.g., fetch origin never fetched) is not announced by screen reader.<br /><br />On Desktop for Windows and Mac, new lines of code are announced as buttons.<br /><br />On Desktop for Windows, file viewer control does not have an accessible name.<br /><br />On Desktop for Windows and Mac the blue dot indicating status message on history is not announced.
       - criterion: "(e) When bitmap images are used to identify controls, status indicators, or other programmatic elements, the meaning assigned to those images shall be consistent throughout an application's performance."
         support: Supports
-        comments: "All iconography are rendered via the [Octicons](https://octicons.insightec.xyz/) library."
+        comments: "All iconography are rendered via the [Octicons](https://octicons.github.com/) library."
       - criterion: "(f) Textual information shall be provided through operating system functions for displaying text. The minimum information that shall be made available is text content, text input caret location, and text attributes."
         support: Supports
         comments:
@@ -71,12 +71,12 @@ data:
         comments: Applications have no flashing or blinking elements.
       - criterion: "(l) When electronic forms are used, the form shall allow people using Assistive Technology to access the information, field elements, and functionality required for completion and submission of the form, including all directions and cues."
         support: Supports with exceptions
-        comments: When making an edit to the markdown of the GitHub ReadMe file, the field is not announced as editable.<br /><br />No additional announcements are made after making a pull request although there are visual displays of errors and other information.<br /><br />Assignees button and “Type or choose a name edit field” have accessible names that do not match the visual control names.<br /><br />Input errors on insightec.xyz sign up and sign-in pages on Desktop for Windows and Mac are not announced.
+        comments: When making an edit to the markdown of the GitHub ReadMe file, the field is not announced as editable.<br /><br />No additional announcements are made after making a pull request although there are visual displays of errors and other information.<br /><br />Assignees button and “Type or choose a name edit field” have accessible names that do not match the visual control names.<br /><br />Input errors on GitHub.com sign up and sign-in pages on Desktop for Windows and Mac are not announced.
 
 
 
   "Section 1194.22 Web-based Intranet and Internet Information and Applications":
-    product: insightec.xyz and GitHub Enterprise
+    product: GitHub.com and GitHub Enterprise
     criteria:
       - criterion: "(a) A text equivalent for every non-text element shall be provided (e.g., via 'alt', 'longdesc', or in element content)."
         support:  Supports with exceptions
@@ -184,7 +184,7 @@ data:
         comments:
       - criterion: "(c) All training and informational video and multimedia productions which support the agency's mission, regardless of format, that contain speech or other audio information necessary for the comprehension of the content, shall be open or closed captioned."
         support: Supports
-        comments: "Training materials available at [youtube.com/insightec](https://www.youtube.com/user/insightec). All GitHub videos are fully closed captioned. <br /><br />For more information on YouTube's accessibility see [support.google.com/youtube/answer/189278](https://support.google.com/youtube/answer/189278?hl=en)"
+        comments: "Training materials available at [youtube.com/github](https://www.youtube.com/user/github). All GitHub videos are fully closed captioned. <br /><br />For more information on YouTube's accessibility see [support.google.com/youtube/answer/189278](https://support.google.com/youtube/answer/189278?hl=en)"
       - criterion: "(d) All training and informational video and multimedia productions which support the agency's mission, regardless of format, that contain visual information necessary for the comprehension of the content, shall be audio described."
         support: Supports with exceptions
         comments: Training videos posted via YouTube video player do not include audio description.
@@ -278,30 +278,30 @@ data:
     criteria:
       - criterion: "(a) Product support documentation provided to end-users shall be made available in alternate formats upon request, at no additional charge"
         support: Supports
-        comments: "Please contact [GitHub Support](https://support.insightec.xyz/) with any such requests."
+        comments: "Please contact [GitHub Support](https://support.github.com/) with any such requests."
       - criterion: "(b) End-users shall have access to a description of the accessibility and compatibility features of products in alternate formats or alternate methods upon request, at no additional charge.  "
         support: Supports
-        comments: "Documentation available at [government.insightec.xyz/accessibility](https://government.insightec.xyz/accessibility/)"
+        comments: "Documentation available at [government.github.com/accessibility](https://government.github.com/accessibility/)"
       - criterion: "(c) Support services for products shall accommodate the communication needs of end-users with disabilities."
         support: Supports
-        comments: "Support provided via [web](https://help.insightec.xyz) and [email](https://insightec.xyz/contactus)"
+        comments: "Support provided via [web](https://help.github.com) and [email](https://github.com/contactus)"
 ---
 
 <div class="col-md-8 mx-auto">
   <p>
-    Please note, when using insightec.xyz or GitHub Enterprise, there are four alternate ways to interact with stored content:
+    Please note, when using GitHub.com or GitHub Enterprise, there are four alternate ways to interact with stored content:
   </p>
   <ol class="ml-3 ml-lg-0">
-    <li class="mb-2">Via the <a href="https://insightec.xyz">insightec.xyz</a> or <a href="https://enterprise.insightec.xyz">GitHub Enterprise</a> web interface through a modern browser</li>
-    <li class="mb-2">Via the <a href="https://desktop.insightec.xyz">GitHub Desktop</a> application</li>
-    <li class="mb-2">Via the GitHub's open <a href="https://developer.insightec.xyz/v3/">application programming interface</a> (API) which provides information in a machine-readable format for integration with other applications</li>
+    <li class="mb-2">Via the <a href="https://github.com">GitHub.com</a> or <a href="https://enterprise.github.com">GitHub Enterprise</a> web interface through a modern browser</li>
+    <li class="mb-2">Via the <a href="https://desktop.github.com">GitHub Desktop</a> application</li>
+    <li class="mb-2">Via the GitHub's open <a href="https://developer.github.com/v3/">application programming interface</a> (API) which provides information in a machine-readable format for integration with other applications</li>
     <li class="mb-2">Via the open source <a href="https://git-scm.com/">Git</a> command line (interactive, entirely text-based) interface</li>
   </ol>
   <p>
     Where support below is indicated below as "Supports with exceptions", such a qualification applies to the particular product being evaluated, however, interactions may be accomplished through alternate means such as via the Git command-line interface.
   </p>
   <p><em>
-    For more information, please contact <a href="mailto:government@insightec.xyz">government@insightec.xyz</a>.
+    For more information, please contact <a href="mailto:government@github.com">government@github.com</a>.
   </em></p>
 </div>
 

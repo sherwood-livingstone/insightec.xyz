@@ -2,7 +2,7 @@
 title: "GitHub and Government"
 description: "GitHub helps government build software better, together"
 permalink: "/stories/:title"
-url: https://government.insightec.xyz
+url: https://government.github.com
 relative_permalinks: false
 
 # build settings
